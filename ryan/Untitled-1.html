@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semantic HTML Example</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header, nav, main, section, article, aside, footer {
+            padding: 15px;
+            margin: 10px;
+            border-radius: 5px;
+        }
+        header { background: #333; color: white; text-align: center; }
+        nav { background: #555; color: white; text-align: center; }
+        nav a { color: white; margin: 0 10px; text-decoration: none; }
+        main { display: flex; flex-wrap: wrap; }
+        section { flex: 2; background: #f4f4f4; }
+        aside { flex: 1; background: #ddd; }
+        article { background: white; padding: 10px; margin-bottom: 10px; }
+        details { background: #f9f9f9; padding: 10px; }
+        figure { text-align: center; }
+        footer { background: #222; color: white; text-align: center; }
+    </style>
+</head>
+<body>
+
+    <header>
+        <img src="icon.png" alt="icon" height="50" width="50">
+        <h1>My Blog</h1>
+        <p>Welcome to my awesome blog about web development!</p>
+       
+    </header>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Blog</a>
+        <a href="#">Contact</a>
+    </nav>
+
+    <main>
+        <section>
+            <h2>Latest Articles</h2>
+            
+            <article>
+                <h3>Understanding Semantic HTML</h3>
+                <p>Semantic HTML improves accessibility and SEO...</p>
+            </article>
+
+            <article>
+                <h3>Getting Started with CSS Grid</h3>
+                <p>CSS Grid makes layout design easier...</p>
+            </article>
+
+            <details>
+                <summary>Click to Read More</summary>
+                <p>This is additional content that can be hidden or shown.</p>
+            </details>
+        </section>
+
+        <aside>
+            <h2>Related Content</h2>
+            <p>Check out these resources:</p>
+            <ul>
+                <li><a href="#">HTML5 Guide</a></li>
+                <li><a href="#">CSS Basics</a></li>
+            </ul>
+        </aside>
+    </main>
+
+    <figure>
+        <img src="SCHEDULE.png" alt="Sample Image" height="50" width="150">
+        <figcaption>An example image with a caption.</figcaption>
+    </figure>
+
+    <footer>
+        <p>&copy; 2025 My Blog. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
